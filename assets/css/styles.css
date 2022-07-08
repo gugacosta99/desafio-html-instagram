@@ -1,0 +1,81 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+    font-family:sans-serif;
+    font-size: 14px;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    min-width: 660px;
+    height: 100vh;
+}
+
+#phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#phone img {
+    height: 45rem;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    width: 450px;
+    text-align: center;
+}
+
+#login .border {
+    border: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    padding: 20px;
+    margin: 3px;
+}
+
+.border img {
+    margin-bottom: 10px;
+}
+
+#profile {
+    height: 84px;
+    width: 84px;
+    border-radius: 100%;
+}
+
+#button {
+    background-color: #0095ff;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.button {
+    color: #0095ff;
+    text-decoration: none;
+}
+
